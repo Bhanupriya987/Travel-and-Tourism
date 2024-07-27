@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-style: italic;
+}
+
+header{
+    display: flex;
+    background-color:rgb(10, 15, 37);
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(230, 182, 109) ;
+}
+
+.logo{
+    font-size: 30px;
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 0;
+}
+
+.logo_container{
+    margin-left:-163px;
+    cursor: pointer;
+}
+
+.nav_bar{
+    margin-right:-172px;
+    display: flex;
+    /* min-width: 560px; */
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.nav_bar a{
+    font-size: 16px;
+    letter-spacing: 3px;
+    color:rgb(213, 190, 149) ;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 28px 0;
+    justify-content: space-evenly;
+    /* width: 55%; */
+}
+
+.nav_bar a:hover{
+    color: #ffffff;
+    /* border-bottom:3px solid chocolate; */
+    text-decoration: underline chocolate;
+}
+
+/* ********************************************header ends************ */
+
+.banner_container {
+    background-image: url(pngtree-view-of-the-milky-from-a-mountain-top-image_13003099.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    /* display: flex; */
+    height: 600px;
+}
+
+.banner_container .h1{
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: antiquewhite;
+    vertical-align: middle;
+    text-align: center;
+    position: absolute;
+    left:30%;
+    top: 40%;
+}
+
+.banner_container h3{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform:uppercase;
+    color: rgb(184, 136, 40);
+    position: absolute;
+    left:40%;
+    top: 50%;
+    
+}
+
+.button{
+    position: absolute;
+    left:45%;
+    top: 60%;
+    height: 39px;
+    width: 120px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+.button:hover{
+     background-color: darkgoldenrod;
+     cursor: pointer;
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px ;
+    margin: 10px;
+}
+
+
+.place_container{
+    /* height: 10px; */
+    /* width: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.box{
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.box:hover{
+    background-color: lightskyblue;
+}
+
+ .place{
+    /* height: 20px; */
+    width: 250px;
+    height: 300px;
+    flex: 1;
+    object-fit: cover;
+    margin: 10px 4px;
+    
+}
+
+a .text{
+    text-decoration: none;
+    text-align: center;
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    height: 200px;
+    background-color: darkslategray;
+    color: #ffffff;
+    text-align: center;
+}
+
+.p{
+    padding-top: 50px;
+}
